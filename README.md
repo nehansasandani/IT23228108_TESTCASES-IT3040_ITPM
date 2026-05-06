@@ -215,11 +215,11 @@ The main purpose of this project is to automate transliteration testing and iden
 
 ---
 
-# 👩‍💻 Author
+# 👩‍💻 Student
 
-### Sandani Nehansa Wijesinghe
-Undergraduate | Information Technology & Software Engineering  
-SLIIT University
+
+### IT23228108    Sandani A.W.A
+
 
 ---
 
