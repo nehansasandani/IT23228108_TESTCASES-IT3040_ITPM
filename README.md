@@ -120,6 +120,22 @@ python test_automation.py --excel "IT23228108.xlsx" --url "https://www.pixelssui
 
 ---
 
+# 🧪 Test Case Details
+
+- Total Test Cases: 50+
+- Test Type: Negative Testing
+- Includes:
+  - Invalid Singlish inputs
+  - Abbreviations
+  - Slang words
+  - Misspelled text
+  - Mixed English/Sinhala inputs
+  - UI/API failure scenarios
+  - Question-type inputs
+  - Distorted transliteration patterns
+
+---
+
 # ✅ Output
 After execution:
 
