@@ -2,13 +2,19 @@
 
 # Singlish to Sinhala Transliteration Testing Automation
 
-## 📌 Project Overview
+
+## GitHub Repository
+https://github.com/nehansasandani/IT23228108_TESTCASES-IT3040_ITPM
+
+
+
+##  Project Overview
 This project automates the testing process of a Singlish-to-Sinhala transliteration web application using Python and Playwright.  
 The system reads test cases from an Excel file, automatically enters the input text into the web application, captures the generated Sinhala output, compares it with the expected output, and updates the Excel sheet with the actual results and test status (PASS/FAIL).
 
 ---
 
-# 🚀 Features
+#  Features
 - Automated browser interaction using Playwright
 - Reads test cases from Excel files
 - Supports Singlish to Sinhala transliteration testing
@@ -20,7 +26,7 @@ The system reads test cases from an Excel file, automatically enters the input t
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 - Python 3
 - Playwright
 - OpenPyXL
@@ -28,7 +34,7 @@ The system reads test cases from an Excel file, automatically enters the input t
 
 ---
 
-# 📂 Project Structure
+#  Project Structur
 
 ```text
 IT23228108/
@@ -46,14 +52,14 @@ IT23228108/
 
 ---
 
-# ⚙️ Installation Guide
+#  Installation Guide
 
-## 1️⃣ Install Python
+## 1️ Install Python
 Download and install Python:
 
 https://www.python.org/downloads/
 
-✔ Make sure to enable:
+ Make sure to enable:
 
 ```text
 Add Python to PATH
@@ -61,7 +67,7 @@ Add Python to PATH
 
 ---
 
-# 2️⃣ Verify Python Installation
+# 2️ Verify Python Installation
 
 ```bash
 python --version
@@ -69,7 +75,7 @@ python --version
 
 ---
 
-# 3️⃣ Install Required Packages
+# 3️ Install Required Packages
 
 ```bash
 pip install playwright openpyxl
@@ -77,7 +83,7 @@ pip install playwright openpyxl
 
 ---
 
-# 4️⃣ Install Playwright Browsers
+# 4️ Install Playwright Browsers
 
 ```bash
 python -m playwright install
@@ -85,7 +91,7 @@ python -m playwright install
 
 ---
 
-# ▶️ How to Run the Project
+#  How to Run the Project
 
 ## Step 1
 Open terminal / CMD inside the project folder:
@@ -105,7 +111,7 @@ python test_automation.py --excel "IT23228108.xlsx" --url "https://www.pixelssui
 
 ---
 
-# ⚡ Alternative Fast Mode
+#  Alternative Fast Mode
 
 ```bash
 python test_automation.py --excel "IT23228108.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 2000 --type-delay-ms 10 --slow-mo-ms 0 --save-every 1 --headless
@@ -113,14 +119,14 @@ python test_automation.py --excel "IT23228108.xlsx" --url "https://www.pixelssui
 
 ---
 
-# 📊 Excel File Format
+#  Excel File Format
 
 | Input | Expected Output | Actual Output | Status |
 |------|----------------|---------------|--------|
 
 ---
 
-# 🧪 Test Case Details
+#  Test Case Details
 
 - Total Test Cases: 50+
 - Test Type: Negative Testing
@@ -136,7 +142,7 @@ python test_automation.py --excel "IT23228108.xlsx" --url "https://www.pixelssui
 
 ---
 
-# ✅ Output
+#  Output
 After execution:
 
 - Actual Sinhala outputs are automatically saved
@@ -145,7 +151,7 @@ After execution:
 
 ---
 
-# 📌 Sample Test Case
+#  Sample Test Case
 
 | Input | Expected Output |
 |------|----------------|
@@ -153,9 +159,9 @@ After execution:
 
 ---
 
-# ❗ Common Errors and Fixes
+#  Common Errors and Fixes
 
-## 1️⃣ File Not Found Error
+## 1️ File Not Found Error
 
 ### Error:
 ```text
@@ -167,7 +173,7 @@ Make sure the Excel file is inside the same project folder.
 
 ---
 
-## 2️⃣ Permission Denied Error
+## 2️ Permission Denied Error
 
 ### Error:
 ```text
@@ -179,7 +185,7 @@ Close the Excel file before running the automation.
 
 ---
 
-## 3️⃣ Failed to Fetch Error
+## 3️ Failed to Fetch Error
 
 ### Reason:
 - Internet issue
@@ -206,7 +212,7 @@ python -m playwright install
 
 ---
 
-# 🎯 Purpose of the Project
+#  Purpose of the Project
 The main purpose of this project is to automate transliteration testing and identify:
 - Incorrect Sinhala conversions
 - UI/API failures
@@ -215,7 +221,7 @@ The main purpose of this project is to automate transliteration testing and iden
 
 ---
 
-# 👩‍💻 Student
+#  Student
 
 
 ### IT23228108    Sandani A.W.A
@@ -223,8 +229,8 @@ The main purpose of this project is to automate transliteration testing and iden
 
 ---
 
-# 🔗 GitHub Repository
-Upload this project to GitHub and include:
+#  GitHub Repository
+https://github.com/nehansasandani/IT23228108_TESTCASES-IT3040_ITPM
 - Source code
 - Excel test cases
 - README.md
@@ -232,7 +238,7 @@ Upload this project to GitHub and include:
 
 ---
 
-# ✅ Final Notes
+#  Final Notes
 - Keep the Excel file closed while running the automation
 - Use stable internet connection
 - Do not rename project files while the script is running
